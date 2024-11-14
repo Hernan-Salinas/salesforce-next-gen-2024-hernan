@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>QuoteEmailSender</members>
+        <members>QuoteEmailHandler</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>QuoteEmailTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Quote.Plantilla_Cotizacion</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Contact.Matricula__c</members>
+        <members>Contact.Estado__c</members>
+        <members>Contact.Periodo__c</members>
+        <members>Quote.Campus__c</members>
+        <members>Quote.NumeroMaterias__c</members>
+        <members>Quote.TipoBeca__c</members>
+        <members>Quote.EstadoCotizacion__c</members>
+        <members>Quote.SubtotalSinDescuentos__c</members>
+        <members>Quote.Descuento_por_Cantidad_de_Materias__c</members>
+        <members>Quote.Descuento_por_Pago_de_Contado__c</members>
+        <members>Quote.Descuento_por_Beca__c</members>
+        <members>Quote.Total_Final__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Quote.Aprobacion_Cotizacion</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <version>58.0</version>
+</Package>
